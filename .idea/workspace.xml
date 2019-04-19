@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed7f99a2-4a78-416c-8c05-c865ad5aaed6" name="Default Changelist" comment="Add total income and expense showing">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="ed7f99a2-4a78-416c-8c05-c865ad5aaed6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="238" column="14" lean-forward="true" selection-start-line="238" selection-start-column="14" selection-end-line="238" selection-end-column="14" />
+            <state relative-caret-position="519">
+              <caret line="273" column="23" lean-forward="true" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -130,7 +129,7 @@
       <workItem from="1555681030789" duration="572000" />
       <workItem from="1555681615073" duration="1846000" />
       <workItem from="1555685387100" duration="5101000" />
-      <workItem from="1555690502762" duration="8353000" />
+      <workItem from="1555690502762" duration="9769000" />
     </task>
     <task id="LOCAL-00001" summary="Code moved to functions">
       <created>1555686074841</created>
@@ -188,11 +187,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555696285584</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add onDelete Btn event">
+      <created>1555698972864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555698972864</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add delete api for delete btn">
+      <created>1555699737252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555699737252</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16141000" />
+    <option name="totallyTimeSpent" value="17557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="911" height="1047" extended-state="0" />
@@ -270,7 +283,9 @@
     <MESSAGE value="Fix some issues" />
     <MESSAGE value="Add percentage and budget calculate features" />
     <MESSAGE value="Add total income and expense showing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add total income and expense showing" />
+    <MESSAGE value="Add onDelete Btn event" />
+    <MESSAGE value="Add delete api for delete btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add delete api for delete btn" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
@@ -316,8 +331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="238" column="14" lean-forward="true" selection-start-line="238" selection-start-column="14" selection-end-line="238" selection-end-column="14" />
+        <state relative-caret-position="519">
+          <caret line="273" column="23" lean-forward="true" selection-start-line="273" selection-start-column="23" selection-end-line="273" selection-end-column="23" />
         </state>
       </provider>
     </entry>
