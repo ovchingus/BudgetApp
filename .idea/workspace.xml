@@ -19,8 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+            <state relative-caret-position="462">
+              <caret line="217" column="17" selection-start-line="217" selection-end-line="218" />
+              <folding>
+                <element signature="e#4145#4182#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,8 +31,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="88" column="46" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="46" />
+            <state relative-caret-position="176">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#1058#1064#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +63,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="958" />
+    <option name="width" value="911" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -90,7 +96,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/prettier" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\boss\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,7 +125,7 @@
       <workItem from="1555681030789" duration="572000" />
       <workItem from="1555681615073" duration="1846000" />
       <workItem from="1555685387100" duration="5101000" />
-      <workItem from="1555690502762" duration="2791000" />
+      <workItem from="1555690502762" duration="5650000" />
     </task>
     <task id="LOCAL-00001" summary="Code moved to functions">
       <created>1555686074841</created>
@@ -156,17 +162,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555691712976</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix some issues">
+      <created>1555693345890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555693345890</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add percentage and budget calculate features">
+      <created>1555694883690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555694883690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10579000" />
+    <option name="totallyTimeSpent" value="13438000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="958" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="911" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.087987356" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1784188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,7 +255,9 @@
     <MESSAGE value="Add addItem method to budgetController" />
     <MESSAGE value="Add add&amp;show ListItem features" />
     <MESSAGE value="Add clear fields action after adding item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add clear fields action after adding item" />
+    <MESSAGE value="Fix some issues" />
+    <MESSAGE value="Add percentage and budget calculate features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add percentage and budget calculate features" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
@@ -262,17 +284,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#1058#1064#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="88" column="46" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="46" />
+        <state relative-caret-position="462">
+          <caret line="217" column="17" selection-start-line="217" selection-end-line="218" />
+          <folding>
+            <element signature="e#4145#4182#0" />
+          </folding>
         </state>
       </provider>
     </entry>
