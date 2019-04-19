@@ -61,6 +61,23 @@ const budgetController = (function() {
             return newItem;
         },
 
+        deleteItem: function(type, id) {
+            // if = 6
+            // data.flow[type][id]
+            //ids = [1 2 4 6 8]
+            // index = 3
+
+            const ids = data.flow[type].map(function(cur) {
+                return cur.id;
+            });
+
+            const index = ids.indexOf(id);
+
+            if (index !== -1) {
+                data.flow[type].splice(index, 1);
+            }
+        },
+
         calculateBudget: function() {
             // calculate total income and expenses
             calculateTotal("inc");
@@ -243,6 +260,7 @@ const controller = (function(budgetCtrl, UICtrl) {
         }
 
         // 1. Delete the item from the data structure
+        budgetCtrl.deleteItem(type, ID);
 
         // 2. Delete the item from the UI
 
